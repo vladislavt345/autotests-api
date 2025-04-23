@@ -4,12 +4,12 @@ package courseservice;
 
 // Определяем сообщение запроса
 message GetCourseRequest {
-  string course_id = 233196;
+  string course_id = 1; // Идентификатор курса
 }
 
 // Определяем сообщение ответа
 message GetCourseResponse {
-  string course_id = 1;   // Идентификатор курса (дублируется из запроса)
+  string course_id = 1;   // Идентификатор курса
   string title = 2;       // Название курса
   string description = 3; // Описание курса
 }
