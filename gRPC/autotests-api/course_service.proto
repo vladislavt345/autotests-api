@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package courseservice;
+
+// Определяем сообщение запроса
+message GetCourseRequest {
+  string course_id = 233196;
+}
+
+// Определяем сообщение ответа
+message GetCourseResponse {
+  string course_id = 1;   // Идентификатор курса (дублируется из запроса)
+  string title = 2;       // Название курса
+  string description = 3; // Описание курса
+}
+
+service CourseService {
+  rpc GetCourse (GetCourseRequest) returns (GetCourseResponse);
+}
