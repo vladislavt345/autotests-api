@@ -1,58 +1,29 @@
-from typing import TypedDict
-import httpx
+from typing import TypedDict, NotRequired
+from httpx import Response
 
 from clients.api_client import APIClient
 
-
-class UserCreateRequest(TypedDict):
+class CreateUserRequestDict(TypedDict):
     """
-    TypedDict для запроса на создание пользователя.
-
-    Attributes:
-        id: Идентификатор пользователя.
-        email: Email пользователя.
-        password: Пароль пользователя.
-        lastName: Фамилия пользователя.
-        firstName: Имя пользователя.
-        middleName: Отчество пользователя.
+    Описание структуры запроса на создание пользователя.
     """
-    id: str
     email: str
     password: str
     lastName: str
     firstName: str
     middleName: str
 
-
 class PublicUsersClient(APIClient):
     """
-    Клиент для взаимодействия с публичными методами API пользователей.
-    
-    Работает с эндпоинтами, которые не требуют авторизации, такими как
-    создание нового пользователя.
+    Клиент для публичных методов /api/v1/users.
+    Используется для создания пользователей без авторизации.
     """
-    
-    def create_user_api(self, request: UserCreateRequest) -> httpx.Response:
+
+    def create_user_api(self, request: CreateUserRequestDict) -> Response:
         """
-        Выполняет POST-запрос к API для создания нового пользователя.
-        
-        Args:
-            request: Данные для создания пользователя, включающие
-                login, password и email.
-                
-        Returns:
-            httpx.Response: Ответ от API сервера, содержащий информацию о
-            результате создания пользователя.
-            
-        Example:
-            >>> client = PublicUsersClient(base_url="https://api.example.com")
-            >>> response = client.create_user_api({
-            ...     "id": "user123",
-            ...     "email": "user@example.com",
-            ...     "password": "securepass",
-            ...     "lastName": "Иванов",
-            ...     "firstName": "Иван",
-            ...     "middleName": "Иванович"
-            ... })
+        Выполняет POST-запрос для создания нового пользователя.
+
+        :param request: Словарь с данными пользователя (email, password, firstName, lastName, middleName.
+        :return: Ответ от сервера в виде объекта httpx.Response.
         """
-        return self.client.post("/api/v1/users", json=request)
+        return self.post("/api/v1/users", json=request)
