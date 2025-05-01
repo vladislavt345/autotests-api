@@ -1,7 +1,6 @@
 from clients.api_client import APIClient
 from httpx import Response
 
-
 class ExercisesClient(APIClient):
     """
     Клиент для взаимодействия с эндпоинтами /api/v1/exercises.
