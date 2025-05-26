@@ -27,17 +27,26 @@ class UserSchema(BaseModel):
         middle_name (str): Отчество пользователя
     """
     
+    id: str
     email: EmailStr
     last_name: str = Field(alias="lastName")
     first_name: str = Field(alias="firstName")
     middle_name: str = Field(alias="middleName")
 
+    def get_full_name(self) -> str:
+        """
+        Возвращает полное имя пользователя.
+        
+        Returns:
+            str: Полное имя в формате "Фамилия Имя Отчество"
+        """
+        return f"{self.last_name} {self.first_name} {self.middle_name}".strip()
 
 class CreateUserRequestSchema(BaseModel):
     """
     Схема запроса на создание нового пользователя.
     
-    Содержит в себе информацию: email, password, fio
+    Содержит в себе атрибуты: email, password, fio
     
     Attributes:
         email (EmailStr): Адрес электронной почты для регистрации
@@ -58,8 +67,7 @@ class CreateUserResponseSchema(BaseModel):
     """
     Схема ответа на запрос создания пользователя.
     
-    Содержит информацию:
-    Успешно созданном пользователе.
+    Содержит информацию о успешно созданном пользователе.
     Возвращается сервером после успешной регистрации.
     
     Attributes:
