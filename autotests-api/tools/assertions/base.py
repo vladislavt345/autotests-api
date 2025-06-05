@@ -4,6 +4,7 @@ from typing import Any
 def assert_status_code(actual: int, expected: int):
     """
     Проверяет, что фактический статус-код ответа соответствует ожидаемому.
+
     :param actual: Фактический статус-код ответа.
     :param expected: Ожидаемый статус-код.
     :raises AssertionError: Если статус-коды не совпадают.
@@ -18,6 +19,7 @@ def assert_status_code(actual: int, expected: int):
 def assert_equal(actual: Any, expected: Any, name: str):
     """
     Проверяет, что фактическое значение равно ожидаемому.
+
     :param name: Название проверяемого значения.
     :param actual: Фактическое значение.
     :param expected: Ожидаемое значение.
