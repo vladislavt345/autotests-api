@@ -1,0 +1,4 @@
+faker
+httpx
+pydantic[email]
+jsonschema
