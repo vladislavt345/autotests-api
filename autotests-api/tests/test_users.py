@@ -1,14 +1,11 @@
-from http import HTTPStatus
 import pytest
-from clients.users.private_users_client import PrivateUsersClient
-from clients.users.users_schema import GetUserResponseSchema
-from tests.conftest import UserFixture
-from tools.assertions.base import assert_status_code
-from tools.assertions.users import assert_get_user_response
+from http import HTTPStatus
+from src.schemas.users_schema import GetUserResponseSchema
+from utils.assertions import assert_status_code, assert_get_user_response, validate_json_schema
 
 @pytest.mark.users
 @pytest.mark.regression
-def test_get_user_me(private_users_client: PrivateUsersClient, function_user: UserFixture):
+def test_get_user_me(function_user: UserFixture, private_users_client: PrivateUsersClient):
     """
     Тест проверяет получение данных текущего пользователя через эндпоинт /api/v1/users/me.
     
@@ -17,14 +14,17 @@ def test_get_user_me(private_users_client: PrivateUsersClient, function_user: Us
     - Корректность тела ответа
     - Валидацию JSON schema ответа
     """
-    # Выполняем GET-запрос к эндпоинту /api/v1/users/me
+    # GET-запрос к эндпоинту /api/v1/users/me
     response = private_users_client.get_user_me_api()
     
-    # Проверяем статус-код ответа
+    # Преобразуем JSON-ответ в GetUserResponseSchema для валидации схемы
+    response_data = GetUserResponseSchema.model_validate_json(response.text)
+    
+    # Проверка статус-код ответа
     assert_status_code(response.status_code, HTTPStatus.OK)
     
-    # Преобразуем JSON-ответ в GetUserResponseSchema для валидации схемы
-    get_user_response = GetUserResponseSchema.model_validate_json(response.text)
-    
-    # Проверяем корректность тела ответа
-    assert_get_user_response(get_user_response, function_user.response)
+    # Проверка корректности тела ответа
+    assert_get_user_response(response_data, function_user.response)
+
+    # Валидация схемы ответа через json-schema
+    validate_json_schema(response.json(), response_data.model_json_schema())
