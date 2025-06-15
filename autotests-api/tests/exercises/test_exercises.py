@@ -1,12 +1,11 @@
 from http import HTTPStatus
-
 import pytest
-
 from clients.exercises.exercises_client import ExercisesClient
-from clients.exercises.exercises_schema import CreateExerciseRequestSchema, CreateExerciseResponseSchema
+from clients.exercises.exercises_schema import CreateExerciseRequestSchema, CreateExerciseResponseSchema, GetExerciseResponseSchema
 from fixtures.courses import CourseFixture
+from fixtures.exercises import ExerciseFixture
 from tools.assertions.base import assert_status_code
-from tools.assertions.exercises import assert_create_exercise_response
+from tools.assertions.exercises import assert_create_exercise_response, assert_get_exercise_response
 from tools.assertions.schema import validate_json_schema
 
 
@@ -52,3 +51,38 @@ class TestExercises:
         
         # Проверка соответствия ответа запросу
         assert_create_exercise_response(request, response_data)
+
+    def test_get_exercise(
+        self,
+        exercises_client: ExercisesClient,
+        function_exercise: ExerciseFixture
+    ):
+        """
+        Тест получения задания через GET-запрос к /api/v1/exercises/{exercise_id}.
+        
+        Проверяет:
+        - Успешное получение задания по ID
+        - Соответствие статус-кода 200
+        - Соответствие данных ответа созданному заданию
+        - Валидацию JSON schema ответа
+        
+        :param exercises_client: Клиент для работы с API заданий
+        :param function_exercise: Фикстура созданного задания
+        """
+        # Получаем ID задания из фикстуры
+        exercise_id = function_exercise.response.exercise.id
+        
+        # Выполняем GET-запрос для получения задания
+        response = exercises_client.get_exercise_api(exercise_id)
+        
+        # Проверяем статус-код ответа
+        assert_status_code(response.status_code, HTTPStatus.OK)
+        
+        # Десериализуем JSON-ответ в Pydantic-модель
+        response_data = GetExerciseResponseSchema.model_validate_json(response.text)
+        
+        # Проверяем соответствие JSON-ответа схеме
+        validate_json_schema(response.json(), response_data.model_json_schema())
+        
+        # Проверяем, что полученное задание соответствует созданному
+        assert_get_exercise_response(response_data, function_exercise.response)
