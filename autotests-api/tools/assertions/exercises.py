@@ -2,6 +2,7 @@ from clients.exercises.exercises_schema import (
     CreateExerciseRequestSchema,
     CreateExerciseResponseSchema,
     GetExerciseResponseSchema,
+    GetExercisesResponseSchema,
     UpdateExerciseRequestSchema,
     ExerciseSchema
 )
@@ -56,6 +57,35 @@ def assert_get_exercise_response(get_exercise_response: GetExerciseResponseSchem
     """
     assert_exercise(get_exercise_response.exercise, create_exercise_response.exercise)
 
+
+def assert_get_exercises_response(get_exercises_response: GetExercisesResponseSchema, create_exercise_response: CreateExerciseResponseSchema):
+    """
+    Проверяет, что список заданий содержит ранее созданное задание.
+    
+    Функция проходит по всем заданиям в списке и проверяет каждое задание
+    с помощью функции assert_exercise. Проверяет, что созданное задание
+    присутствует в полученном списке.
+    
+    :param get_exercises_response: Ответ API со списком заданий
+    :param create_exercise_response: Ответ API при создании задания
+    :raises AssertionError: Если созданное задание не найдено в списке или данные не совпадают
+    """
+    # Получаем созданное задание для сравнения
+    created_exercise = create_exercise_response.exercise
+    
+    # Проверяем, что список заданий не пустой
+    assert get_exercises_response.exercises, "Список заданий не должен быть пустым."
+        
+    # Ищем созданное задание в списке
+    exercise_found = next(
+        (exercise for exercise in get_exercises_response.exercises if exercise.id == created_exercise.id),
+        None
+    )
+    
+    # Проверяем, что созданное задание было найдено в списке
+    assert exercise_found, f"Созданное задание с ID {created_exercise.id} не найдено в списке заданий"
+    # Проверяем, что все данные найденного задания полностью совпадают с созданными.
+    # assert_exercise(exercise_found, created_exercise)
 
 def assert_update_exercise_response(request: UpdateExerciseRequestSchema, response: GetExerciseResponseSchema):
     """

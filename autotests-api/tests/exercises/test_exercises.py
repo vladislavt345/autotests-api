@@ -7,6 +7,8 @@ from clients.exercises.exercises_schema import (
     CreateExerciseRequestSchema,
     CreateExerciseResponseSchema,
     GetExerciseResponseSchema,
+    GetExercisesQuerySchema,
+    GetExercisesResponseSchema,
     UpdateExerciseRequestSchema
 )
 
@@ -18,6 +20,7 @@ from tools.assertions.base import assert_status_code
 from tools.assertions.exercises import (
     assert_create_exercise_response,
     assert_get_exercise_response,
+    assert_get_exercises_response,
     assert_update_exercise_response,
     assert_exercise_not_found_response
 )
@@ -67,6 +70,42 @@ class TestExercises:
 
         # Проверка соответствия ответа запросу
         assert_create_exercise_response(request, response_data)
+
+    def test_get_exercises(
+        self,
+        exercises_client: ExercisesClient,
+        function_exercise: ExerciseFixture,
+        function_course: CourseFixture
+    ):
+        """
+        Тест получения списка заданий через GET-запрос к /api/v1/exercises.
+
+        Проверяет:
+        - Статус-код ответа 200
+        - Соответствие тела ответа списку созданных заданий
+        - Валидацию JSON schema ответа
+
+        :param exercises_client: Клиент для работы с API заданий
+        :param function_exercise: Фикстура созданного задания
+        :param function_course: Фикстура курса для фильтрации заданий
+        """
+        # Подготовка параметров запроса для фильтрации по курсу
+        query = GetExercisesQuerySchema(course_id=function_course.response.course.id)
+
+        # Выполнение GET-запроса для получения списка заданий
+        response = exercises_client.get_exercises_api(query)
+
+        # Проверка статус-кода ответа
+        assert_status_code(response.status_code, HTTPStatus.OK)
+
+        # Десериализуем JSON-ответ в Pydantic-модель
+        response_data = GetExercisesResponseSchema.model_validate_json(response.text)
+
+        # Проверяем соответствие JSON-ответа схеме
+        validate_json_schema(response.json(), response_data.model_json_schema())
+
+        # Проверяем, что список заданий содержит созданное задание
+        assert_get_exercises_response(response_data, function_exercise.response)
 
 #GET
     def test_get_exercise(
