@@ -5,13 +5,15 @@ from clients.exercises.exercises_schema import (
     UpdateExerciseRequestSchema,
     ExerciseSchema
 )
+
+from clients.errors_schema import InternalErrorResponseSchema
 from tools.assertions.base import assert_equal
 
 
 def assert_create_exercise_response(request: CreateExerciseRequestSchema, response: CreateExerciseResponseSchema):
     """
     Проверяет, что ответ на создание задания соответствует запросу.
-   
+    
     :param request: Исходный запрос на создание задания
     :param response: Ответ API с данными задания
     :raises AssertionError: Если хотя бы одно поле не совпадает
@@ -29,7 +31,7 @@ def assert_exercise(actual: ExerciseSchema, expected: ExerciseSchema):
     """
     Проверяет корректность данных задания.
     Сравнивает все поля задания.
-   
+    
     :param actual: Фактические данные задания
     :param expected: Ожидаемые данные задания
     :raises AssertionError: Если хотя бы одно поле не совпадает
@@ -47,7 +49,7 @@ def assert_exercise(actual: ExerciseSchema, expected: ExerciseSchema):
 def assert_get_exercise_response(get_exercise_response: GetExerciseResponseSchema, create_exercise_response: CreateExerciseResponseSchema):
     """
     Проверяет, что данные задания при создании и при запросе совпадают.
-   
+    
     :param get_exercise_response: Ответ API при запросе задания
     :param create_exercise_response: Ответ API при создании задания
     :raises AssertionError: Если данные заданий не совпадают
@@ -85,3 +87,14 @@ def assert_update_exercise_response(request: UpdateExerciseRequestSchema, respon
     
     if request.estimated_time is not None:
         assert_equal(response.exercise.estimated_time, request.estimated_time, "estimated_time")
+
+#Проверка, что тело ответа на запрос получения задания содержит внутреннюю ошибку "Exercise not found"
+def assert_exercise_not_found_response(response: InternalErrorResponseSchema):
+    """
+    Проверяет, что ответ соответствует ожидаемой ошибке "Exercise not found".
+
+    :param response: Десериализованный ответ API об ошибке.
+    :raises AssertionError: Если сообщение не соответствует ожидаемому.
+    """
+    expected_message = "Exercise not found"
+    assert_equal(response.details, expected_message, "error details message")
