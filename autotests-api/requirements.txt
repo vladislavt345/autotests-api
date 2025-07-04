@@ -2,3 +2,4 @@ faker
 httpx
 pydantic[email]
 jsonschema
+pydantic-settings
