@@ -1,4 +1,4 @@
 .pytest_cache/
 __pycache__/
-.allure-report/
-.allure-results/
+allure-report/
+allure-results/
