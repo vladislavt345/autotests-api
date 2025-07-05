@@ -76,6 +76,7 @@ class TestCourses:
         courses_client: CoursesClient,
         function_course: CourseFixture
     ):
+    
         """
         Тест для проверки обновления курса через API.
 
@@ -85,6 +86,7 @@ class TestCourses:
         - Соответствие данных в ответе переданным данным запроса
         - Валидацию JSON-схемы ответа
         """
+        
         request = UpdateCourseRequestSchema()
         response = courses_client.update_course_api(function_course.response.course.id, request)
         response_data = UpdateCourseResponseSchema.model_validate_json(response.text)
