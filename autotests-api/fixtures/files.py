@@ -3,6 +3,7 @@ from pydantic import BaseModel
 
 from clients.files.files_client import get_files_client, FilesClient
 from clients.files.files_schema import CreateFileRequestSchema, CreateFileResponseSchema
+from config import settings
 from fixtures.users import UserFixture
 
 

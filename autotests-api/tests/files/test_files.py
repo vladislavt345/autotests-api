@@ -1,6 +1,5 @@
 from http import HTTPStatus
 
-from config import settings
 import allure
 import pytest
 from allure_commons.types import Severity
@@ -8,6 +7,7 @@ from allure_commons.types import Severity
 from clients.errors_schema import ValidationErrorResponseSchema, InternalErrorResponseSchema
 from clients.files.files_client import FilesClient
 from clients.files.files_schema import CreateFileRequestSchema, CreateFileResponseSchema, GetFileResponseSchema
+from config import settings
 from fixtures.files import FileFixture
 from tools.allure.epics import AllureEpic
 from tools.allure.features import AllureFeature

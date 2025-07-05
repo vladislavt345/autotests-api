@@ -28,7 +28,6 @@ from tools.assertions.courses import (
 )
 from tools.assertions.schema import validate_json_schema
 
-
 @pytest.mark.courses
 @pytest.mark.regression
 @allure.tag(AllureTag.COURSES, AllureTag.REGRESSION)
@@ -46,7 +45,7 @@ class TestCourses:
         self,
         courses_client: CoursesClient,
         function_user: UserFixture,
-        function_course: CourseFixture
+        function_course: CourseFixture,
     ):
         """
         Тест для получения списка курсов пользователя по user_id.

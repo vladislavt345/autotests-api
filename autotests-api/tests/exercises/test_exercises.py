@@ -31,7 +31,6 @@ from tools.assertions.exercises import (
 )
 from tools.assertions.schema import validate_json_schema
 
-
 @pytest.mark.exercises
 @pytest.mark.regression
 @allure.tag(AllureTag.EXERCISES, AllureTag.REGRESSION)

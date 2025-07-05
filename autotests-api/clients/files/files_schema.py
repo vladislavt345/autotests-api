@@ -1,7 +1,6 @@
 from pydantic import BaseModel, HttpUrl, Field, FilePath
 # Импортируем заранее созданный экземпляр класса Fake
 from tools.fakers import fake
-from config import settings
 
 class FileSchema(BaseModel):
     """
