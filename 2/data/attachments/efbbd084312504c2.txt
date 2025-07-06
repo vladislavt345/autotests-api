@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/6802c278-a7af-4d4a-8eca-c608ea35f8e9' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA2VDExOjE4OjM5LjMxNzYxNSIsInVzZXJfaWQiOiJjODJkNzc2Ni0zNGM1LTQzNmEtODRhZC05NTVmZTc3MjAwNTgifQ.c8kbC9AsmYBIY4fGgi6_bpcZKfB6fu_W7NnBjzXjdpQ' \
+  -H 'content-length: 274' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Word nice what campaign baby site.","maxScore":62,"minScore":6,"description":"Talk list military bar per right.\nCarry camera perhaps series particular season. Entire art different space girl body. Economy approach high onto difference.","estimatedTime":"2 weeks"}'

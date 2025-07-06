@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA2VDExOjE4OjQzLjQ4NDM0NyIsInVzZXJfaWQiOiIyOGU0MTE1MC04ZmUzLTRmMTMtYTUzOC0wOWZkNGY1NzhlNTgifQ.5a2RjgOtTSv9-ngxiCdDQQaQszAivgvpfQ0Bh6vP0HY' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hundred clearly call hot.","maxScore":68,"minScore":5,"description":"Easy majority safe inside. Who between service particular if story behind add. Feeling seek away public apply rich direction.","estimatedTime":"8 weeks","previewFileId":"e68ece4f-56d2-48db-aca2-8fe0f2c18f22","createdByUserId":"28e41150-8fe3-4f13-a538-09fd4f578e58"}'

@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:49 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Hope city data get.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 87
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 2
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to There world nature can community painting. Action sit practice full west accept include.
+Body form detail serious should offer end. Player from daughter.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 6 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that "preview_file_id" equals to 2d840d0b-efb7-41df-a329-e9c7734f5e90
+INFO     BASE_ASSERTIONS:base.py:37 Check that "created_by_user_id" equals to fd0fdf1a-7593-4090-99a0-17fde470dbbd
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

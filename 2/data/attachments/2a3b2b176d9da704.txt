@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA2VDExOjE4OjQwLjUyMDg2OSIsInVzZXJfaWQiOiJmZDBmZGYxYS03NTkzLTQwOTAtOTlhMC0xN2ZkZTQ3MGRiYmQifQ.OCf8Xb7xTNiQ6aLnQpzSiAXg3RYVTKy6VSdHacUby5k' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hope city data get.","maxScore":87,"minScore":2,"description":"There world nature can community painting. Action sit practice full west accept include.\nBody form detail serious should offer end. Player from daughter.","estimatedTime":"6 weeks","previewFileId":"2d840d0b-efb7-41df-a329-e9c7734f5e90","createdByUserId":"fd0fdf1a-7593-4090-99a0-17fde470dbbd"}'

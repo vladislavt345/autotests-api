@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/f9f3efc4-659c-4472-84b5-cedf73f1b114
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/f9f3efc4-659c-4472-84b5-cedf73f1b114
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:93 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:70 Check single exercise fields
+INFO     BASE_ASSERTIONS:base.py:37 Check that "id" equals to f9f3efc4-659c-4472-84b5-cedf73f1b114
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Top community safe above fear theory next statement.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "course_id" equals to 8e50fe53-d788-4575-9821-da7d1316fff5
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 79
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 26
+INFO     BASE_ASSERTIONS:base.py:37 Check that "order_index" equals to 37
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Staff raise color prove. Grow final policy author since break friend.
+Some partner body candidate number trip. Message that number suggest project agreement feeling whose.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

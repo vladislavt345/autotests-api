@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA2VDExOjE4OjQxLjY4OTQxMiIsInVzZXJfaWQiOiI5ZTZmYWVjYi1lOTAxLTQ0NmEtODA4Yi01M2I5NTIxZGZjNTUifQ.qjKGHFErHhzboAscnf2Ur1pBkpfLI0FWLy6B4oQjAZ4' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Letter worker activity admit however why.","maxScore":59,"minScore":9,"description":"Need position lay up sort under pretty certain. Industry student charge movie notice work hour. Mouth clearly fall sit executive never.","estimatedTime":"5 weeks","previewFileId":"f0d46e1e-8922-4a21-a940-57580810f7c6","createdByUserId":"9e6faecb-e901-446a-808b-53b9521dfc55"}'

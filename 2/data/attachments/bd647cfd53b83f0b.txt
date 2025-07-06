@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA2VDExOjE4OjM5LjMxNzYxNSIsInVzZXJfaWQiOiJjODJkNzc2Ni0zNGM1LTQzNmEtODRhZC05NTVmZTc3MjAwNTgifQ.c8kbC9AsmYBIY4fGgi6_bpcZKfB6fu_W7NnBjzXjdpQ' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Phone own produce our similar audience medical.","maxScore":90,"minScore":16,"description":"Game indicate so people team campaign. Leader unit position try process where. Charge two glass law note.","estimatedTime":"10 weeks","previewFileId":"402c37cf-0a78-4d44-bdfa-54adb74421ee","createdByUserId":"c82d7766-34c5-436a-84ad-955fe7720058"}'

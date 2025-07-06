@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/ec09335e-6e35-4887-8e6b-9608b64c66bb' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA2VDExOjE4OjQxLjY4OTQxMiIsInVzZXJfaWQiOiI5ZTZmYWVjYi1lOTAxLTQ0NmEtODA4Yi01M2I5NTIxZGZjNTUifQ.qjKGHFErHhzboAscnf2Ur1pBkpfLI0FWLy6B4oQjAZ4' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tough wonder professor front provide build visit.","maxScore":55,"minScore":19,"orderIndex":85,"description":"Small reveal rule song coach. If thought provide eat opportunity.\nTeacher finish ask should save mention. Per speech region student tax.\nAvoid really event idea choice. Not old rule use.","estimatedTime":"4 weeks"}'

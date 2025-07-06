@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA2VDExOjE4OjQyLjI2NTU5MCIsInVzZXJfaWQiOiJjOTBkY2ZmMC0yZDc4LTQxZjctODM2ZC04NzQxNjFjNGQ0NzMifQ.2O_K6btrAeWkanTr2dFBrmaHn7K9s25FQwAyzAO9SUo' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hair source most wish difficult.","maxScore":59,"minScore":21,"description":"Occur seem thank pass. Officer beat purpose add serve. Your center behind every hear board issue accept.\nOnce beyond body Republican attack move. Executive past why quite agreement history describe.","estimatedTime":"5 weeks","previewFileId":"6fc7f85b-6424-4e98-9ae7-5646026664da","createdByUserId":"c90dcff0-2d78-41f7-836d-874161c4d473"}'
