@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA2VDExOjA3OjIxLjMzMDQ0MSIsInVzZXJfaWQiOiIzZjE0ZDhlMS03ZWI5LTQ4YmYtODY4Yi1mNGRkYzM2MTVmZTkifQ.P7aHwNgm9QJeIoySFOVF4FvMaFo7ZicrxJjO-hCeNJQ' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bar place ahead seem system quite accept.","maxScore":80,"minScore":26,"description":"Pick five size spring various article. Seat argue student tonight bit available what herself. Report cost tough management.","estimatedTime":"6 weeks","previewFileId":"575fe690-2dd1-4a09-9803-ffa460c0caad","createdByUserId":"3f14d8e1-7eb9-48bf-868b-f4ddc3615fe9"}'

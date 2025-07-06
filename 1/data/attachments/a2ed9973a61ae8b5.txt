@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA2VDExOjA3OjI2LjAyNDkxOSIsInVzZXJfaWQiOiIxMDIwNzIwMS0zZWRmLTQxMDYtYmM1NS04Y2NmNmQ1MDRjZjAifQ.IFtsYI86x2bvXti2nJgwX39342qm7sd2EGI36-lUm2E' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"For plant between happen.","courseId":"f712a6af-2392-4e75-bd4d-cf39c4ed3673","maxScore":95,"minScore":16,"orderIndex":45,"description":"Store power already along life. According spring per place magazine with know. Letter else should unit.\nLast health never each. Billion now thought sure practice do.","estimatedTime":"1 weeks"}'

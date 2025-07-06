@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA2VDExOjA3OjIyLjc0MzA0OCIsInVzZXJfaWQiOiIxYjllNThmNS1mYzlhLTQwMDctOTY1Yy1kODExZWI5NGFiNDgifQ.3764vFngnI32Jr3ShjIlPZ7Bkiu3Oj07MOe7h6c4bAw' \
+  -H 'content-length: 429' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Agree whose once knowledge always public.","maxScore":50,"minScore":15,"description":"General system street ability person policy growth what. Those table best cup use way. Until writer choose range everybody book impact other. Measure medical guy suddenly rule yes southern set.","estimatedTime":"6 weeks","previewFileId":"11d2ba3d-ff4f-4701-b2b5-7ec7a7da07fa","createdByUserId":"1b9e58f5-fc9a-4007-965c-d811eb94ab48"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA2VDExOjA3OjIyLjQ3MTE4MiIsInVzZXJfaWQiOiI0ZDY0ZWU4Mi1kMWU5LTQyNGQtYmNjOC02ZWZjNDBmYjFmZTEifQ.dO4XoOFAFJjpMDoVAPeT2h1klM20OmScyNmKfExQ3KY' \
+  -H 'content-length: 442' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Environment husband lay usually business world.","maxScore":79,"minScore":11,"description":"Radio relationship material a air car mean. Think evidence college nice sell list. Wait take where pull with.\nGo someone after open reality more. Then else yes class animal. My early race friend bar.","estimatedTime":"6 weeks","previewFileId":"81dc1a50-bda1-4a5e-a74e-eb01eb46c22d","createdByUserId":"4d64ee82-d1e9-424d-bcc8-6efc40fb1fe1"}'

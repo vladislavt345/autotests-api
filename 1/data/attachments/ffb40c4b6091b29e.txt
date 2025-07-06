@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA2VDExOjA3OjIzLjkzNTg2OCIsInVzZXJfaWQiOiJiNzYwZmExOC1lMzZjLTQ2OGUtYjYwZS00Nzg1MWUzM2VjYWMifQ._j-v9DN9bDvK7EIzWzdn1nNH9JOC_BDO8UE_QwL-fZI' \
+  -H 'content-length: 306' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Analysis receive food kind least.","maxScore":82,"minScore":5,"description":"Very drug environment discuss between young throughout. Individual any bit try.","estimatedTime":"8 weeks","previewFileId":"1af38214-4420-4d8d-96b8-dc6cbea0776e","createdByUserId":"b760fa18-e36c-468e-b60e-47851e33ecac"}'

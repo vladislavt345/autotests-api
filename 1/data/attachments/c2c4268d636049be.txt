@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA2VDExOjA3OjI1LjEwODY0OSIsInVzZXJfaWQiOiI1ODM3NjM4My0wZjU4LTQ0ZjMtOGZhNy00NTVhYjcyMGFmN2EifQ.9X5vcolJb7yRP7SKxx4MLNoCE9uwQMvseZ1yMHR6_NA' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cost project draw find agent history.","maxScore":88,"minScore":25,"description":"Television event thought enjoy voice my near again. Able main behavior toward cause. Home learn trial.\nMention discover piece difference fact stop.","estimatedTime":"10 weeks","previewFileId":"07c2ff34-58dc-4659-af15-658a0c6ae21a","createdByUserId":"58376383-0f58-44f3-8fa7-455ab720af7a"}'

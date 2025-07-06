@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA2VDExOjA3OjI0LjgzNjAwOCIsInVzZXJfaWQiOiI4YzQ5OTIyNC0zOWY2LTQ5NGUtYjM2Yi0yYjA3NjVkMmI5ZGMifQ.qWDgMFNCuicxlzPhUBhQEeRr0foc9DX3Fx_WI4Ltsk0' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Miss level leg its half.","maxScore":53,"minScore":16,"description":"Court baby item mind hear name walk. New should positive.\nPlan century million. Face project set strategy cup.","estimatedTime":"10 weeks","previewFileId":"def7d2da-00df-4a49-9a3e-268e23a75ea2","createdByUserId":"8c499224-39f6-494e-b36b-2b0765d2b9dc"}'

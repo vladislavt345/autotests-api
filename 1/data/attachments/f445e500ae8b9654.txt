@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/e1869599-4bb3-4663-955e-019db69a41f3
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/e1869599-4bb3-4663-955e-019db69a41f3
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:93 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:70 Check single exercise fields
+INFO     BASE_ASSERTIONS:base.py:37 Check that "id" equals to e1869599-4bb3-4663-955e-019db69a41f3
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Relationship behind rather save wall establish vote.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "course_id" equals to 56794456-8b54-47d4-824f-34e9671e84a5
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 78
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 10
+INFO     BASE_ASSERTIONS:base.py:37 Check that "order_index" equals to 37
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Much baby read eye end seat black choose. Candidate type agency heart forget group. Century evening relate face six. Raise laugh of full site.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema
