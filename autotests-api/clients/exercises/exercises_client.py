@@ -74,6 +74,7 @@ class ExercisesClient(APIClient):
     def get_exercises(self, query: GetExercisesQuerySchema) -> GetExercisesResponseSchema:
         """
         Метод получения списка заданий с валидацией ответа.
+        
         :param query: Модель с courseId.
         :return: Валидированный ответ со списком заданий.
         """
@@ -84,6 +85,7 @@ class ExercisesClient(APIClient):
     def get_exercise(self, exercise_id: str) -> GetExerciseResponseSchema:
         """
         Метод получения задания с валидацией ответа.
+        
         :param exercise_id: Идентификатор задания.
         :return: Валидированный ответ с заданием.
         """
@@ -94,6 +96,7 @@ class ExercisesClient(APIClient):
     def create_exercise(self, request: CreateExerciseRequestSchema) -> CreateExerciseResponseSchema:
         """
         Метод создания задания с валидацией ответа.
+        
         :param request: Модель с данными для создания задания.
         :return: Валидированный ответ с созданным заданием.
         """
@@ -104,6 +107,7 @@ class ExercisesClient(APIClient):
     def update_exercise(self, exercise_id: str, request: UpdateExerciseRequestSchema) -> UpdateExerciseResponseSchema:
         """
         Метод обновления задания с валидацией ответа.
+        
         :param exercise_id: Идентификатор задания.
         :param request: Модель с данными для обновления задания.
         :return: Валидированный ответ с обновленным заданием.
