@@ -25,6 +25,7 @@ class ExercisesClient(APIClient):
     def get_exercises_api(self, query: GetExercisesQuerySchema) -> Response:
         """
         Метод получения списка заданий.
+        
         :param query: Модель с courseId.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
