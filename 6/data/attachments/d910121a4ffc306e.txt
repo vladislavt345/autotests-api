@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjI0OjM5LjI2NTUxMiIsInVzZXJfaWQiOiI5NGM5NTY5MC04Mzc4LTQ0MzYtYWQ3YS00ZDY2NTU5OTAzYWEifQ.28k5BaM_wBpLgOKI0VCf4XULdYzGoHp3Q7bappfKodQ' \
+  -H 'content-length: 437' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trade meeting month fast item political rich.","maxScore":83,"minScore":4,"description":"Position though family garden cup water field. Bar situation could listen sing against nor.\nPower prove debate society. Indicate future floor particularly former front career. Find hope edge value.","estimatedTime":"1 weeks","previewFileId":"0ab6b2a0-aa07-4df6-b48a-68b1081bf42f","createdByUserId":"94c95690-8378-4436-ad7a-4d66559903aa"}'

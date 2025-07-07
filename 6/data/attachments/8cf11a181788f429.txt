@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjI0OjQwLjQyOTk3NSIsInVzZXJfaWQiOiIzYjVkMGQ3MC01ZjUzLTQ2Y2QtYmI0Zi00MzNlZjA5NjgwNjIifQ.yUYBbvGquo54r71UWoQKOnI6Q8izYHBiHhlsvWiIIGU' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"People religious challenge and past reality front alone.","courseId":"7f6e3e21-2a6c-49b2-b751-9763366150a8","maxScore":89,"minScore":2,"orderIndex":54,"description":"Majority story idea degree. Early build treatment public candidate what. Step those notice.","estimatedTime":"9 weeks"}'

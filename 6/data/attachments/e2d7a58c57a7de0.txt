@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make PATCH request to http://localhost:8000/api/v1/courses/3cf17fc3-2cd6-463f-bcae-320efe595872
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses/3cf17fc3-2cd6-463f-bcae-320efe595872
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:29 Check update course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Trip bed dinner.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 82
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 27
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Use necessary material either yeah. Memory would management sport any how join stay. Reduce seven back make arm role.
+Step of call yourself help. Quickly line seven arrive.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

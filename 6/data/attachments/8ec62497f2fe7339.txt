@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjI0OjQxLjY0NTk2MiIsInVzZXJfaWQiOiIyZWVmN2I3My04MjE4LTQyNTItYWM3My1mNTAzOGIwOGEzY2QifQ.i3iIPGn3E0JYzR_5yAPlLsn1T1t7FIBUmI2zxLBloSo' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Board hour throw sell argue friend son speech.","maxScore":57,"minScore":2,"description":"Degree house explain gas partner short bad. Great even Republican power. City our score himself word meet visit.","estimatedTime":"2 weeks","previewFileId":"fcbd9f65-3c57-4dc8-aad7-10ce7065327e","createdByUserId":"2eef7b73-8218-4252-ac73-f5038b08a3cd"}'

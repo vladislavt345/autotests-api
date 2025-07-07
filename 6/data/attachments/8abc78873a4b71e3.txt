@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjI0OjM4LjA0MzA5NCIsInVzZXJfaWQiOiI0MWViNzQ5MS05MGM1LTQzNzktYmM0YS1lNDUxNDExNDZhY2MifQ.6kRwU9hBdr4sjfG6XjzM3zemVj7phFjcF1c6wsbyhtc' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Consumer grow science enough fish news.","maxScore":85,"minScore":29,"description":"Hundred design time war. Couple least call structure near. Free well science story put mean involve.\nRock few while organization send. Might drop laugh lay perhaps. Whether bar too sport not.","estimatedTime":"3 weeks","previewFileId":"5f420ea9-c669-401f-b1d5-5ad2c1f573c7","createdByUserId":"41eb7491-90c5-4379-bc4a-e45141146acc"}'

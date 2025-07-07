@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjI0OjQwLjQyOTk3NSIsInVzZXJfaWQiOiIzYjVkMGQ3MC01ZjUzLTQ2Y2QtYmI0Zi00MzNlZjA5NjgwNjIifQ.yUYBbvGquo54r71UWoQKOnI6Q8izYHBiHhlsvWiIIGU' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Back continue feeling show.","maxScore":79,"minScore":23,"description":"Truth floor quickly wrong bank community center. Information owner beyond everything middle stock third.\nPressure article alone particularly they. Detail operation both.","estimatedTime":"1 weeks","previewFileId":"b694f315-59d9-4515-af80-387a3c66c630","createdByUserId":"3b5d0d70-5f53-46cd-bb4f-433ef0968062"}'

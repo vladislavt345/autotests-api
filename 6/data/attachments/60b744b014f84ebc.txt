@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/3cf17fc3-2cd6-463f-bcae-320efe595872' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjI0OjM4LjA0MzA5NCIsInVzZXJfaWQiOiI0MWViNzQ5MS05MGM1LTQzNzktYmM0YS1lNDUxNDExNDZhY2MifQ.6kRwU9hBdr4sjfG6XjzM3zemVj7phFjcF1c6wsbyhtc' \
+  -H 'content-length: 272' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trip bed dinner.","maxScore":82,"minScore":27,"description":"Use necessary material either yeah. Memory would management sport any how join stay. Reduce seven back make arm role.\nStep of call yourself help. Quickly line seven arrive.","estimatedTime":"7 weeks"}'

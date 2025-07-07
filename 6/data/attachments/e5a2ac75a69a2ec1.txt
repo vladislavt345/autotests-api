@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjI0OjQyLjMwOTgyMCIsInVzZXJfaWQiOiI4YzlhYjhmOS02NDYzLTQ1MTQtYWJmMy1jNzM0NTFkZTNmZjUifQ.gGSVtjfvhwZ8L_wLkAuqV0xIF8t7YY56ZIuHausqY8A' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Treatment by management garden the field.","maxScore":74,"minScore":27,"description":"Fight them response arrive community hair guy.\nConcern listen opportunity road pull prevent myself. Southern perform take. Such support at mouth want grow group.","estimatedTime":"10 weeks","previewFileId":"ea484019-152a-4e1c-adf8-8be750a296c9","createdByUserId":"8c9ab8f9-6463-4514-abf3-c73451de3ff5"}'

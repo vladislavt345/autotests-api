@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjI0OjQxLjY0NTk2MiIsInVzZXJfaWQiOiIyZWVmN2I3My04MjE4LTQyNTItYWM3My1mNTAzOGIwOGEzY2QifQ.i3iIPGn3E0JYzR_5yAPlLsn1T1t7FIBUmI2zxLBloSo' \
+  -H 'content-length: 297' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Actually soldier help charge study.","courseId":"a33f661e-6fd6-4bc1-9589-b6af691b8bb3","maxScore":52,"minScore":1,"orderIndex":86,"description":"Condition with or own study low hit director. Require effort open somebody pressure score. Explain wide loss tend.","estimatedTime":"3 weeks"}'

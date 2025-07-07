@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjI0OjQxLjA2MzQ1MyIsInVzZXJfaWQiOiIzZDI0N2VkZC01NzRiLTQyMTktOGM1ZC1lYmUyOWNiOGZjZTEifQ.Kb7HcAIVmzFfrS5BWp4v8aENZpF3gq20uZuf2MA02BI' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Any former during.","maxScore":93,"minScore":11,"description":"Service woman discussion either establish. Thus prove add scene identify. Either agent team most near hit.","estimatedTime":"10 weeks","previewFileId":"eb268950-4c16-430c-8c4b-0772dea2adb9","createdByUserId":"3d247edd-574b-4219-8c5d-ebe29cb8fce1"}'

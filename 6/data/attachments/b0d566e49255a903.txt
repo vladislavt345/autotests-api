@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjI0OjM5Ljg0NTc2MSIsInVzZXJfaWQiOiI4ZjdiYjYyZS1hMTAyLTQ5MDQtYTY0Yy1hZWRjZjM4Mzk4NWEifQ.smQ-DGYfGW9muF2lh6G6aRI2nNsFntDRkw8D-w6eur4' \
+  -H 'content-length: 437' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Side long political stand likely range citizen.","maxScore":88,"minScore":24,"description":"Camera campaign change arm note. Identify situation action move teacher another again.\nAlthough agency already election as. Almost state too do field.\nState share well stand someone green born.","estimatedTime":"3 weeks","previewFileId":"f6abf436-5be1-4b3d-ad8a-9cef7478c429","createdByUserId":"8f7bb62e-a102-4904-a64c-aedcf383985a"}'
