@@ -2,6 +2,7 @@ import allure
 from httpx import Response
 
 from clients.api_client import APIClient
+from clients.api_coverage import tracker
 from clients.private_http_builder import get_private_http_client, AuthenticationUserSchema
 from clients.exercises.exercises_schema import (
     GetExerciseResponseSchema,
@@ -20,6 +21,7 @@ class ExercisesClient(APIClient):
     """
 
     @allure.step("Call GET /api/v1/exercises with query: {query}")
+    @tracker.track_coverage_httpx(APIRoutes.EXERCISES)
     def get_exercises_api(self, query: GetExercisesQuerySchema) -> Response:
         """
         Метод получения списка заданий.
@@ -30,6 +32,7 @@ class ExercisesClient(APIClient):
         return self.get(str(APIRoutes.EXERCISES), params=query.model_dump(by_alias=True))
 
     @allure.step("Call GET /api/v1/exercises/{exercise_id} with id: {exercise_id}")
+    @tracker.track_coverage_httpx(f"{APIRoutes.EXERCISES}/{{exercise_id}}")
     def get_exercise_api(self, exercise_id: str) -> Response:
         """
         Метод получения задания.
@@ -40,6 +43,7 @@ class ExercisesClient(APIClient):
         return self.get(f"{APIRoutes.EXERCISES}/{exercise_id}")
 
     @allure.step("Call POST /api/v1/exercises to create exercise with data: {request}")
+    @tracker.track_coverage_httpx(APIRoutes.EXERCISES)
     def create_exercise_api(self, request: CreateExerciseRequestSchema) -> Response:
         """
         Метод создания задания.
@@ -50,6 +54,7 @@ class ExercisesClient(APIClient):
         return self.post(APIRoutes.EXERCISES, json=request.model_dump(by_alias=True))
 
     @allure.step("Call PATCH /api/v1/exercises/{exercise_id} to update exercise with id: {exercise_id} and data: {request}")
+    @tracker.track_coverage_httpx(f"{APIRoutes.EXERCISES}/{{exercise_id}}")
     def update_exercise_api(self, exercise_id: str, request: UpdateExerciseRequestSchema) -> Response:
         """
         Метод обновления задания.
@@ -61,6 +66,7 @@ class ExercisesClient(APIClient):
         return self.patch(f"{APIRoutes.EXERCISES}/{exercise_id}", json=request.model_dump(by_alias=True, exclude_none=True))
 
     @allure.step("Call DELETE /api/v1/exercises/{exercise_id} to delete exercise with id: {exercise_id}")
+    @tracker.track_coverage_httpx(f"{APIRoutes.EXERCISES}/{{exercise_id}}")
     def delete_exercise_api(self, exercise_id: str) -> Response:
         """
         Метод удаления задания.
