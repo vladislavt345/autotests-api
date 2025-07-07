@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/17c09e6d-86d9-4476-865a-1ba3f6b6032b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjEwOjE0LjM3NDY4NCIsInVzZXJfaWQiOiJlMDgwNzdkZi1iNGZkLTQxYjQtOWEyYS0yMzRmYzY0NGQ5M2EifQ.Y8aRrOif_Gz3NlzEeWy0diMoafwD_AJf8B6DMiGGojA' \
+  -H 'content-length: 302' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Point condition lead argue.","maxScore":74,"minScore":22,"description":"Admit bar interesting see they sign. Team them understand argue language too health. Project total however ever daughter partner world certain.\nFuture admit none hear trade. Since Mrs father.","estimatedTime":"5 weeks"}'

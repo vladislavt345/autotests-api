@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make PATCH request to http://localhost:8000/api/v1/courses/17c09e6d-86d9-4476-865a-1ba3f6b6032b
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses/17c09e6d-86d9-4476-865a-1ba3f6b6032b
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:29 Check update course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Point condition lead argue.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 74
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 22
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Admit bar interesting see they sign. Team them understand argue language too health. Project total however ever daughter partner world certain.
+Future admit none hear trade. Since Mrs father.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

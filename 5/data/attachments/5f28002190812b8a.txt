@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjEwOjE4Ljg4NTU5NSIsInVzZXJfaWQiOiI0MTI4ZGE0Yy1hNzliLTQwNmQtYmI5Ni1lNTFlOThlZWQwNDUifQ.929LF19t-G0YpEmFDMERCyM9WX9KPU7qAXYbwIIydsk' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Book attention amount.","maxScore":85,"minScore":10,"description":"Itself tonight suddenly strong policy TV skin. Enter although traditional tree they weight trial. Out night thus.","estimatedTime":"9 weeks","previewFileId":"2e55ae59-f751-4d47-ab80-e9e3f3852b4c","createdByUserId":"4128da4c-a79b-406d-bb96-e51e98eed045"}'

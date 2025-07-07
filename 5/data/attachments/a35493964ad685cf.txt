@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjEwOjE1Ljg1MDM1MiIsInVzZXJfaWQiOiJmMjE1MGZkNC02YmUyLTQ3YjItYmVjNS1mMGMxNTIwN2M3ZTcifQ.OQ9gxjtRL9-GES-DVts0ZEhn1cZGls-Fp9wkq07sztA' \
+  -H 'content-length: 314' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Over pretty experience go less.","maxScore":96,"minScore":3,"description":"All watch low bar data decade their plant. Possible area inside newspaper material among.","estimatedTime":"3 weeks","previewFileId":"078b3e5d-346e-440d-b5ac-f33e4155ad37","createdByUserId":"f2150fd4-6be2-47b2-bec5-f0c15207c7e7"}'

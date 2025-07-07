@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjEwOjE3LjAxNzYxMCIsInVzZXJfaWQiOiIxNTJhMDZlNy0zMzI0LTRjMzItYjVhYi01MzNlOTRlMjdhODAifQ.NMe1IbOnkCVWoOYyOdofYRVw-yJEI5ANlBLT7MDgpfU' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Feel end away lawyer.","maxScore":60,"minScore":23,"description":"Would house even north. Home else easy.\nBlack adult pressure baby with collection statement care. Maybe result say southern room important.\nGirl begin education establish keep public too.","estimatedTime":"3 weeks","previewFileId":"ae387813-a0e6-47c3-8f34-31e1453eebae","createdByUserId":"152a06e7-3324-4c32-b5ab-533e94e27a80"}'

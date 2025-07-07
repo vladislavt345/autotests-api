@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjEwOjE2LjQzNDg4NSIsInVzZXJfaWQiOiI0M2QyMDk3MC1mZjZjLTQ3M2ItYjM4ZS0wYzhiYWQ1NDY5ZmUifQ.oIVVOZOu-7hXEWO2hyAyl-nqAZ4IhdPwM6E2vL6pIbY' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Media song national.","maxScore":51,"minScore":3,"description":"Become professor short pick mean much model beautiful. West seven action almost movement.\nFeel large skill total way. Various month article total from need. Physical money dark Mr step.","estimatedTime":"3 weeks","previewFileId":"57922680-63dd-4dbe-83b1-7653ab40a85f","createdByUserId":"43d20970-ff6c-473b-b38e-0c8bad5469fe"}'

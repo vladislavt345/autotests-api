@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjEwOjE3LjAxNzYxMCIsInVzZXJfaWQiOiIxNTJhMDZlNy0zMzI0LTRjMzItYjVhYi01MzNlOTRlMjdhODAifQ.NMe1IbOnkCVWoOYyOdofYRVw-yJEI5ANlBLT7MDgpfU' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Deal floor project actually think degree contain though.","courseId":"fd8495e8-d2bd-4fcd-ad8d-173e7118afbb","maxScore":78,"minScore":26,"orderIndex":9,"description":"Heavy wrong entire above face event soldier response. Often media relationship show gun before. Likely whatever develop bit natural view exist. Be build city with hand minute section walk.","estimatedTime":"8 weeks"}'

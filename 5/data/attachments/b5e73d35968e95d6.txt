@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjEwOjE0LjM3NDY4NCIsInVzZXJfaWQiOiJlMDgwNzdkZi1iNGZkLTQxYjQtOWEyYS0yMzRmYzY0NGQ5M2EifQ.Y8aRrOif_Gz3NlzEeWy0diMoafwD_AJf8B6DMiGGojA' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Though easy option easy quickly.","maxScore":70,"minScore":29,"description":"Night physical candidate dream tell ground miss deal. Challenge me it resource until.\nItself production weight water. Sell past total trial difference street. Record cover modern face whether.","estimatedTime":"8 weeks","previewFileId":"9bac51bc-1a90-476a-bc4c-bea6b679944e","createdByUserId":"e08077df-b4fd-41b4-9a2a-234fc644d93a"}'

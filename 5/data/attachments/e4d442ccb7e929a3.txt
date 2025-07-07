@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjEwOjE4LjIyMjQ2MyIsInVzZXJfaWQiOiJlODRkNGNjNi1iOTI2LTQxZTktYjNlNy0xNTcyNjE3NzZlNjkifQ.DYCJrz15l4x19BkpeUHGID2qljk2ZiyrELMmFNPYFmU' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Financial specific then pay why must toward.","maxScore":95,"minScore":15,"description":"Common if range. Agent detail administration phone evidence speak. Positive tree land. Grow travel upon box fish mother.","estimatedTime":"1 weeks","previewFileId":"36443735-0fdc-4bb6-91da-a3b76fd793d2","createdByUserId":"e84d4cc6-b926-41e9-b3e7-157261776e69"}'

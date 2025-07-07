@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjEwOjE4LjIyMjQ2MyIsInVzZXJfaWQiOiJlODRkNGNjNi1iOTI2LTQxZTktYjNlNy0xNTcyNjE3NzZlNjkifQ.DYCJrz15l4x19BkpeUHGID2qljk2ZiyrELMmFNPYFmU' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Another allow create number.","courseId":"1074258e-61de-4218-8454-6b8304f5bbfc","maxScore":95,"minScore":12,"orderIndex":2,"description":"Statement down serve. Argue sign civil perhaps page.\nShort everyone management four. Fly life during catch computer. Sense factor already customer risk.","estimatedTime":"8 weeks"}'
