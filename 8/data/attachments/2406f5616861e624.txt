@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE2OjA0OjQ2LjU3NzgwMyIsInVzZXJfaWQiOiJkYmY1NjE3Zi1hODkwLTRlMDctYjI5NC0xYzE2ZWVjMDE2Y2YifQ.5vmaA-xTpdEamBCcrPdrPxWcytZrkPs9DvPg6erfPS0' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Become interest old sense ask far.","maxScore":69,"minScore":19,"description":"Take box before Congress race. Not share health provide.\nTeam call defense. Skin charge reality.\nMinute expect lot question real fund every. East century benefit manager.","estimatedTime":"5 weeks","previewFileId":"bea3300f-d698-43fb-a0ba-6856f5a8d3ba","createdByUserId":"dbf5617f-a890-4e07-b294-1c16eec016cf"}'

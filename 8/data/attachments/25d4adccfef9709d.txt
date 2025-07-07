@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE2OjA0OjQ4Ljk5MTU4MyIsInVzZXJfaWQiOiJjYTg5YTMxYi0yYjhhLTQyNDQtOGU2MC1jNmExYjA1OTc1YjEifQ.LPfaTF2PxeRSZYSrUEaSj0i4nOH1fBGOm2Xv76ROCF0' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Water of just clearly.","maxScore":83,"minScore":21,"description":"Language blue shake bank affect special. Short all major range task. Let season south product history.\nLaugh war word bit walk affect. Group true friend policy good case before.","estimatedTime":"3 weeks","previewFileId":"ce44af47-258c-4a95-88de-d8800ef785bb","createdByUserId":"ca89a31b-2b8a-4244-8e60-c6a1b05975b1"}'

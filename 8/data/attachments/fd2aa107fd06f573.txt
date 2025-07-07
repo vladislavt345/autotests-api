@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE2OjA0OjQ1Ljk4OTUyOSIsInVzZXJfaWQiOiI0NzEzZWIyYy03OTRhLTQ2MmItYTZlOC0zNDVjODcwYjc1Y2QifQ.aN3aqN8F4Y_KmSQXfenuxQ7Z9czykIjTzQmf75ISk1s' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Model surface eight resource certainly analysis who.","maxScore":83,"minScore":13,"description":"Source entire under around piece method main high.\nYou property summer third wrong long. Similar opportunity second single between.","estimatedTime":"1 weeks","previewFileId":"88964da1-5a73-4eac-a2d0-5809798c1b08","createdByUserId":"4713eb2c-794a-462b-a6e8-345c870b75cd"}'

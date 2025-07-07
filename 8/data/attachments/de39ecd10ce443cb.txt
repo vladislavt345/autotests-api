@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises?courseId=d7513527-6c1c-493c-aa05-97fa1d69aae3
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=d7513527-6c1c-493c-aa05-97fa1d69aae3
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:110 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:73 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:70 Check single exercise fields
+INFO     BASE_ASSERTIONS:base.py:37 Check that "id" equals to 1d8a3cf8-5649-4aaa-9394-b8f3e2270b1c
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Such black others off surface.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "course_id" equals to d7513527-6c1c-493c-aa05-97fa1d69aae3
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 76
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 4
+INFO     BASE_ASSERTIONS:base.py:37 Check that "order_index" equals to 78
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Heart response tend. Down kitchen ago student identify thank. Door voice floor letter.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

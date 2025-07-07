@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE2OjA0OjUwLjI0OTUzMCIsInVzZXJfaWQiOiIwMzdhMTlmYS05YzVkLTQxMTItOGMxOS0zODA3YTYzYTE4NzUifQ.A-kRiMSqJialkaXymQHKYj_At8P0VSkMPIkI9xaNXc4' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Head laugh both.","maxScore":69,"minScore":13,"description":"Though rule space. Safe increase question age campaign mother. Degree water model thank away feel. Drive south cut view protect by all.\nThird item marriage else mind. Ready near organization during.","estimatedTime":"9 weeks","previewFileId":"d5c9a434-1103-405c-a72e-ff2b0a1c884b","createdByUserId":"037a19fa-9c5d-4112-8c19-3807a63a1875"}'

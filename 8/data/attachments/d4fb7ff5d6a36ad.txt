@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE2OjA0OjQ4LjM5NjE2MyIsInVzZXJfaWQiOiI4MzM0MTQzZi02ZjRlLTQ2YTQtOWQ4NS1lMzdiYmZkMGI0NWMifQ.dfsC8qEIQtecZPKfTIghPa_ZObxt2x7PAKBd9wELLDY' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Continue century account bar.","maxScore":74,"minScore":15,"description":"Trade decade recently particularly. Until total physical rate. Citizen job court cell chance food. Lose bad beautiful.","estimatedTime":"7 weeks","previewFileId":"8e8794bf-cde6-4284-9e26-be176b338b21","createdByUserId":"8334143f-6f4e-46a4-9d85-e37bbfd0b45c"}'

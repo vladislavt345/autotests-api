@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE2OjA0OjQ5LjYzODcyNiIsInVzZXJfaWQiOiIzYjAzYjM1Ni00OTBhLTRkMWEtYWE0Yy01NzBlZmRiOTA3OTAifQ.8PRki15lx-sRlY07QfHbuRiOQQygZdBp-QbybFYg0vg' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dark design kitchen successful study somebody.","maxScore":82,"minScore":27,"description":"Scientist six civil prepare into gas point. Race dark church real trouble four information. Bring accept visit from hope too fish.","estimatedTime":"9 weeks","previewFileId":"04686de2-6ce3-412c-8f09-299d147e90d7","createdByUserId":"3b03b356-490a-4d1a-aa4c-570efdb90790"}'

@@ -1,0 +1,22 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make PATCH request to http://localhost:8000/api/v1/exercises/625591d2-42e1-4957-8643-e372d794b886
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/625591d2-42e1-4957-8643-e372d794b886
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:54 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Admit left officer strong card state thus.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 92
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 3
+INFO     BASE_ASSERTIONS:base.py:37 Check that "order_index" equals to 3
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Threat fast lose future truth language. Child realize evidence forget social future such lawyer. Describe situation prove future ten.
+She story can character. Role long give per cut power point.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

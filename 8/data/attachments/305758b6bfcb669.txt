@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make PATCH request to http://localhost:8000/api/v1/courses/60a6c1bb-4ceb-4f6f-8c44-d2ff0d865c14
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses/60a6c1bb-4ceb-4f6f-8c44-d2ff0d865c14
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:29 Check update course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Free area what design goal side idea yeah.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 79
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 15
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Act son follow single stop trial something billion. Public like factor director order whose.
+Institution why condition defense measure become.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE2OjA0OjQ3LjIxODI2NyIsInVzZXJfaWQiOiI5YmVkNThmOS05NzUxLTRkMWQtODlhNS1mZjhkMTE5YWZkN2EifQ.h1LdRKGBim3gqhKgx53wA4DJ3klLZ2JK2IJIBGjTGV8' \
+  -H 'content-length: 313' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Feel moment think only pull.","maxScore":64,"minScore":15,"description":"Tv while three too religious especially pattern. Owner this environmental including peace.","estimatedTime":"1 weeks","previewFileId":"f7db785c-670d-496d-8e2f-6f52fa9f0a83","createdByUserId":"9bed58f9-9751-4d1d-89a5-ff8d119afd7a"}'

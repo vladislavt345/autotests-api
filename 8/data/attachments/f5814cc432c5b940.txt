@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE2OjA0OjQ5LjYzODcyNiIsInVzZXJfaWQiOiIzYjAzYjM1Ni00OTBhLTRkMWEtYWE0Yy01NzBlZmRiOTA3OTAifQ.8PRki15lx-sRlY07QfHbuRiOQQygZdBp-QbybFYg0vg' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Republican summer by hard gun step direction.","courseId":"5b80e731-80f3-45a7-871b-4a3b3cac05f3","maxScore":54,"minScore":27,"orderIndex":7,"description":"Sort process between several. Read keep center agency professional kitchen million. Wife citizen head medical tax feel behind.\nWin behind hard several.","estimatedTime":"10 weeks"}'

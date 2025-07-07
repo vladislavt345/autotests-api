@@ -1,0 +1,120 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Негативный тест: создание файла с пустым значением директории.","257","Create file with empty directory","LMS service","Mon Jul 07 15:34:52 GMT 2025","passed","Mon Jul 07 15:34:52 GMT 2025","Validate entity","Files","",""
+"
+        Тест проверяет создание нового пользователя через эндпоинт /api/v1/users.
+
+        Проверяет:
+        - Статус-код ответа (200)
+        - Корректность тела ответа
+        - Валидацию JSON schema ответа
+        ","547","Create user","LMS service","Mon Jul 07 15:34:53 GMT 2025","passed","Mon Jul 07 15:34:54 GMT 2025","Create entity","Users","",""
+"
+        Тест создания задания через POST-запрос к /api/v1/exercises.
+
+        Проверяет:
+        - Статус-код ответа 200
+        - Соответствие тела ответа запросу
+        - Валидацию JSON schema ответа
+        ","24","Create exercise","LMS service","Mon Jul 07 15:34:48 GMT 2025","passed","Mon Jul 07 15:34:48 GMT 2025","Create entity","Exercises","",""
+"
+        Тест проверяет создание нового пользователя через эндпоинт /api/v1/users.
+
+        Проверяет:
+        - Статус-код ответа (200)
+        - Корректность тела ответа
+        - Валидацию JSON schema ответа
+        ","290","Create user","LMS service","Mon Jul 07 15:34:54 GMT 2025","passed","Mon Jul 07 15:34:54 GMT 2025","Create entity","Users","",""
+"Тест удаления файла через API.","24","Delete file","LMS service","Mon Jul 07 15:34:54 GMT 2025","passed","Mon Jul 07 15:34:54 GMT 2025","Delete entity","Files","",""
+"
+        Тест для проверки создания курса через API.
+        
+        Проверяет:
+        - Успешное создание курса через POST-запрос к /api/v1/courses
+        - Соответствие статус-кода 200
+        - Соответствие данных ответа данным запроса
+        - Валидацию JSON-схемы ответа
+
+        :param courses_client: Клиент для работы с API курсов
+        :param function_file: Фикстура файла для preview_file_id
+        :param function_user: Фикстура пользователя для created_by_user_id
+        ","32","Create course","LMS service","Mon Jul 07 15:34:47 GMT 2025","passed","Mon Jul 07 15:34:47 GMT 2025","Create entity","Courses","",""
+"
+        Тест для получения списка курсов пользователя по user_id.
+
+        Проверяет:
+        - Успешный возврат списка курсов через GET-запрос к /api/v1/courses
+        - Соответствие статус-кода 200
+        - Наличие ранее созданного курса в ответе
+        - Валидацию JSON-схемы ответа
+        ","303","Get courses","LMS service","Mon Jul 07 15:34:46 GMT 2025","passed","Mon Jul 07 15:34:46 GMT 2025","Get entities","Courses","",""
+"
+        Тест получения списка заданий через GET-запрос к /api/v1/exercises.
+
+        Проверяет:
+        - Статус-код ответа 200
+        - Соответствие тела ответа списку созданных заданий
+        - Валидацию JSON schema ответа
+        ","18","Get exercises","LMS service","Mon Jul 07 15:34:50 GMT 2025","passed","Mon Jul 07 15:34:50 GMT 2025","Get entities","Exercises","",""
+"
+        Тест обновления задания через PATCH-запрос к /api/v1/exercises/{exercise_id}.
+
+        Проверяет:
+        - Успешное обновление задания по ID
+        - Соответствие статус-кода 200
+        - Соответствие данных ответа запросу на обновление
+        - Валидацию JSON schema ответа
+        ","293","Update exercise","LMS service","Mon Jul 07 15:34:48 GMT 2025","passed","Mon Jul 07 15:34:49 GMT 2025","Update entity","Exercises","",""
+"
+        Тест проверяет создание нового пользователя через эндпоинт /api/v1/users.
+
+        Проверяет:
+        - Статус-код ответа (200)
+        - Корректность тела ответа
+        - Валидацию JSON schema ответа
+        ","547","Create user","LMS service","Mon Jul 07 15:34:54 GMT 2025","passed","Mon Jul 07 15:34:54 GMT 2025","Create entity","Users","",""
+"
+        Тест получения задания через GET-запрос к /api/v1/exercises/{exercise_id}.
+
+        Проверяет:
+        - Успешное получение задания по ID
+        - Соответствие статус-кода 200
+        - Соответствие данных ответа созданному заданию
+        - Валидацию JSON schema ответа
+        ","17","Get exercise","LMS service","Mon Jul 07 15:34:49 GMT 2025","passed","Mon Jul 07 15:34:49 GMT 2025","Get entity","Exercises","",""
+"
+        Тест удаления задания через DELETE-запрос к /api/v1/exercises/{exercise_id}.
+
+        Проверяет:
+        - Статус-код 200 после удаления.
+        - Статус-код 404 и соответствующее сообщение об ошибке после попытки получения удаленного задания.
+        - Валидацию JSON schema ответа на GET-запрос после удаления.
+        ","292","Delete exercise","LMS service","Mon Jul 07 15:34:49 GMT 2025","passed","Mon Jul 07 15:34:50 GMT 2025","Delete entity","Exercises","",""
+"Негативный тест: получение файла с некорректным file_id.","268","Get file with incorrect file id","LMS service","Mon Jul 07 15:34:53 GMT 2025","passed","Mon Jul 07 15:34:53 GMT 2025","Validate entity","Files","",""
+"
+        Тест проверяет авторизацию пользователя через эндпоинт /api/v1/auth/login.
+        
+        Проверяет:
+        - Статус-код (200 OK)
+        - Корректность данных авторизации
+        - Валидацию JSON-схемы ответа
+        ","285","Login with correct email and password","LMS service","Mon Jul 07 15:34:45 GMT 2025","passed","Mon Jul 07 15:34:45 GMT 2025","Login","Authentication","",""
+"Тест создания файла через API.","268","Create file","LMS service","Mon Jul 07 15:34:50 GMT 2025","passed","Mon Jul 07 15:34:51 GMT 2025","Create entity","Files","",""
+"
+        Тест для проверки обновления курса через API.
+
+        Проверяет:
+        - Успешное обновление курса через PATCH-запрос к /api/v1/courses/{course_id}
+        - Соответствие статус-кода 200
+        - Соответствие данных в ответе переданным данным запроса
+        - Валидацию JSON-схемы ответа
+        ","304","Update course","LMS service","Mon Jul 07 15:34:46 GMT 2025","passed","Mon Jul 07 15:34:46 GMT 2025","Update entity","Courses","",""
+"Негативный тест: создание файла с пустым именем.","264","Create file with empty filename","LMS service","Mon Jul 07 15:34:52 GMT 2025","passed","Mon Jul 07 15:34:52 GMT 2025","Validate entity","Files","",""
+"Тест получения файла по ID через API.","15","Get file","LMS service","Mon Jul 07 15:34:51 GMT 2025","passed","Mon Jul 07 15:34:51 GMT 2025","Get entity","Files","",""
+"
+        Тест проверяет получение данных текущего пользователя через эндпоинт /api/v1/users/me.
+
+        Проверяет:
+        - Статус-код ответа (200)
+        - Корректность тела ответа
+        - Валидацию JSON schema ответа
+        ","16","Get user me","LMS service","Mon Jul 07 15:34:55 GMT 2025","passed","Mon Jul 07 15:34:55 GMT 2025","Get entity","Users","",""
