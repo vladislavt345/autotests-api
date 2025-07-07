@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjQ4OjEwLjY0NjM0MSIsInVzZXJfaWQiOiI0M2EzYmZmYy0wM2EwLTRjMTktODA5Ny04MDJiOWUxODhhYzEifQ.p9QtWu7SDbY2MsUsZw2f_pCo0kJw0yNNnx5PylKqmb4' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fear government within value.","maxScore":85,"minScore":14,"description":"On respond level owner capital. Management customer no into property father. Direction create next produce. Produce simple should listen.","estimatedTime":"4 weeks","previewFileId":"94972fc7-7a92-4d03-9539-ebc321b5c38e","createdByUserId":"43a3bffc-03a0-4c19-8097-802b9e188ac1"}'

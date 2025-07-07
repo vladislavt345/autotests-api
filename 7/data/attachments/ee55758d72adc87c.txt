@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjQ4OjExLjIzNjM4NCIsInVzZXJfaWQiOiJlMTI5ZWMxNS1hNGU3LTRmN2ItYjc0Yy01NThhYzNhYTQxMGIifQ.kwZScZo-CT7GdFxqdz66dQD7ZhEbkmzHp3yYRpT7kVQ' \
+  -H 'content-length: 446' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Building responsibility environment research long choose back.","maxScore":90,"minScore":14,"description":"Hour theory if research forward. Improve above for. Most then technology customer true all approach.\nWide a sport say scene after give sound. Actually away strong Congress fill art market.","estimatedTime":"3 weeks","previewFileId":"1911ff32-5e22-4ded-8c1e-54e843b647fa","createdByUserId":"e129ec15-a4e7-4f7b-b74c-558ac3aa410b"}'

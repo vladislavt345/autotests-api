@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjQ4OjEwLjY0NjM0MSIsInVzZXJfaWQiOiI0M2EzYmZmYy0wM2EwLTRjMTktODA5Ny04MDJiOWUxODhhYzEifQ.p9QtWu7SDbY2MsUsZw2f_pCo0kJw0yNNnx5PylKqmb4' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Heavy stock director with person person.","courseId":"9a8ba3cb-c754-4fd3-9ae8-2ec0ed70e1a5","maxScore":99,"minScore":24,"orderIndex":66,"description":"Head require training site produce structure.\nGeneration treat someone else. Reason several parent information.\nOnto measure college. Media evidence new indicate top wide eye.\nSound raise song.","estimatedTime":"9 weeks"}'

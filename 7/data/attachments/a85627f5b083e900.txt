@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:49 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Visit card education offer success sell.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 51
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 3
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Truth soon hour run want money special.
+Stage mouth practice travel difficult media first. Edge pattern so daughter data.
+Win note focus people. Meet white contain should across.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 3 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that "preview_file_id" equals to 84ec320b-43d4-40d5-9ca8-df8b9be47834
+INFO     BASE_ASSERTIONS:base.py:37 Check that "created_by_user_id" equals to cdd1336d-44c0-4283-897c-d9056e647c38
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

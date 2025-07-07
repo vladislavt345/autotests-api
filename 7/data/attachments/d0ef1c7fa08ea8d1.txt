@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjQ4OjEyLjQ2MTI2MSIsInVzZXJfaWQiOiJlMmJiMWI0My1kOGI1LTRjMDgtYjg0NC01YTllYjk5M2ZkYjIifQ.wrnpmjsW4Tt7Cid1dVirVqA4fizcGWNGX-Fo31pnGj0' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Oil this brother leave hold traditional.","courseId":"12b65811-1428-45dd-8e88-6c07de58a7cc","maxScore":85,"minScore":14,"orderIndex":35,"description":"Good together under daughter many city. Modern think various soldier development management security wind.\nAmerican into finally name success.\nFront police like herself hope.","estimatedTime":"9 weeks"}'

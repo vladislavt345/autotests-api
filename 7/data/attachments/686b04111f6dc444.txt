@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjQ4OjEzLjA2NTQxOCIsInVzZXJfaWQiOiJmYzNiNWI1Yi05ZWJhLTRiMGQtODdjMC01ZmRmZWM1YjZlYjEifQ.mHxWQmpuFwc1qKHkR0yx83lGo0cgnyDpZuLhXv7LnM4' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Until account force evening section beautiful.","maxScore":64,"minScore":21,"description":"Election challenge common production party among house. Visit recently past.\nNumber collection lawyer believe respond fact. Program of meeting store financial its.","estimatedTime":"3 weeks","previewFileId":"ab056880-0f06-4beb-b3fc-956caebb2105","createdByUserId":"fc3b5b5b-9eba-4b0d-87c0-5fdfec5b6eb1"}'

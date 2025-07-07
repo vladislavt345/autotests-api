@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjQ4OjEwLjA2MDU1NiIsInVzZXJfaWQiOiJjZGQxMzM2ZC00NGMwLTQyODMtODk3Yy1kOTA1NmU2NDdjMzgifQ.ZnUpcP0iVA1Oq1zpPXQnpFslV5P9KxzTQYgGOxUZsxw' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Visit card education offer success sell.","maxScore":51,"minScore":3,"description":"Truth soon hour run want money special.\nStage mouth practice travel difficult media first. Edge pattern so daughter data.\nWin note focus people. Meet white contain should across.","estimatedTime":"3 weeks","previewFileId":"84ec320b-43d4-40d5-9ca8-df8b9be47834","createdByUserId":"cdd1336d-44c0-4283-897c-d9056e647c38"}'

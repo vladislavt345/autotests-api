@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjQ4OjExLjgyMDU0MCIsInVzZXJfaWQiOiI5NWFmMDFkZS01OWQ1LTQ1NjMtODRmNy1jNjRiODEyOWEyNjUifQ.XtauxVJB_wveBVLsYGSQZ4wTiYCmPQNWOkCxADbwrPQ' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Eat true husband.","maxScore":84,"minScore":8,"description":"Field phone spring pretty. Conference away condition audience manager. Animal leader expert place Congress a board.\nCost Republican science. Professor charge paper by nor.","estimatedTime":"8 weeks","previewFileId":"fe23c378-cdaf-4b5d-814c-bff18a96efcd","createdByUserId":"95af01de-59d5-4563-84f7-c64b8129a265"}'

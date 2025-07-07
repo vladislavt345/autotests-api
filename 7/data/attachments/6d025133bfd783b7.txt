@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/07f4a663-82e9-4355-bfd6-ed2c446fee0a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjQ4OjA4Ljg1NTQ2NiIsInVzZXJfaWQiOiIxNGEyOTAwMi02ZTFlLTQ2MzgtOGM4ZC1iZjBkMmUwNDNkZDMifQ.dxldDuD7fqOc2whpEiU1GVGbhq0-UWuXni_NImUExAM' \
+  -H 'content-length: 215' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Owner be structure share certainly sort.","maxScore":54,"minScore":8,"description":"Increase finally own clear all. Word outside finally cold. Return cell notice between record.","estimatedTime":"9 weeks"}'

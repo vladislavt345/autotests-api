@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjQ4OjA4Ljg1NTQ2NiIsInVzZXJfaWQiOiIxNGEyOTAwMi02ZTFlLTQ2MzgtOGM4ZC1iZjBkMmUwNDNkZDMifQ.dxldDuD7fqOc2whpEiU1GVGbhq0-UWuXni_NImUExAM' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dream idea strategy deep thousand until situation.","maxScore":85,"minScore":11,"description":"Whether nothing involve data. Camera agent laugh various small place. Future we those trip.","estimatedTime":"2 weeks","previewFileId":"b91c977b-2d41-4f98-88e2-776aa4fc75d7","createdByUserId":"14a29002-6e1e-4638-8c8d-bf0d2e043dd3"}'

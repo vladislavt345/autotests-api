@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDE0OjQ4OjEyLjQ2MTI2MSIsInVzZXJfaWQiOiJlMmJiMWI0My1kOGI1LTRjMDgtYjg0NC01YTllYjk5M2ZkYjIifQ.wrnpmjsW4Tt7Cid1dVirVqA4fizcGWNGX-Fo31pnGj0' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"But write back bill.","maxScore":61,"minScore":17,"description":"Language maintain specific well foot news affect. Road quite your sometimes despite billion finish.\nHis keep respond feel best. Produce agree game woman north need.","estimatedTime":"5 weeks","previewFileId":"f80d504d-c662-4bdc-8d85-54ef426dfc22","createdByUserId":"e2bb1b43-d8b5-4c08-b844-5a9eb993fdb2"}'
