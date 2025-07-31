@@ -27,7 +27,7 @@ This project is specifically designed for API autotests, incorporating best prac
 To get started, clone the project repository using Git:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/vladislavt345/autotests-api.git
 cd your-repo-name
 ```
 
