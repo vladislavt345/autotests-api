@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMxVDE0OjI1OjQyLjQ5ODQxMiIsInVzZXJfaWQiOiI1MGNkMzA1ZS0yYzQ0LTRlZDMtYjc1OS1mMjMxMzcwNDY3YzQifQ.4iye3cyJBL4CXQ2e2aF0rHOBxj9dLjjauvCW9RYMfEM' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Language Mr garden idea trade strategy conference.","maxScore":53,"minScore":18,"description":"From do industry whether such sort natural. Door how trouble magazine institution. Hour yourself allow maintain fish song community Mrs.","estimatedTime":"1 weeks","previewFileId":"8fcc22ca-37ff-4b4b-97f8-d0af3a9f08fb","createdByUserId":"50cd305e-2c44-4ed3-b759-f231370467c4"}'

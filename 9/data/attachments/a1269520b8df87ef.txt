@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMxVDE0OjI1OjQzLjY3NzgwNCIsInVzZXJfaWQiOiJmYzQyMTk1MS03ODkwLTRmY2UtYWQ5NC01NTU4MTU0NDJjMDEifQ.mv75mmtPjqHs0vMtpvjI7olDzaiB4jj8eRfXqIHGDYI' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Start conference standard player each skill.","maxScore":88,"minScore":29,"description":"Fact sound factor wonder. How good simple foot record author message.\nThat yet policy water agree skin. Form religious difficult door since.","estimatedTime":"10 weeks","previewFileId":"32c09fbb-eb6b-4286-9971-068f0a046280","createdByUserId":"fc421951-7890-4fce-ad94-555815442c01"}'

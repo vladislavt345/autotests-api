@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/9d44c3d7-3eee-473b-b449-23ee881eb887' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMxVDE0OjI1OjQxLjU4NTg0OSIsInVzZXJfaWQiOiI3NTE0NWE2ZS0zNTQ0LTQ3YWYtYjgxZS1mZTBjNjc4YTE5ODQifQ.VOynUm1eQPD95Yz_ZI_Gg7DlDwqtqzlL1cHAlUwXeYc' \
+  -H 'content-length: 292' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Administration break sister ten cold himself least.","maxScore":58,"minScore":21,"description":"Board green purpose determine.\nOpportunity what order apply structure. Number sense development development few want choice let. Old help continue would bit.","estimatedTime":"5 weeks"}'

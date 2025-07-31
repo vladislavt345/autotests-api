@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMxVDE0OjI1OjQ0Ljg1MjAzMCIsInVzZXJfaWQiOiJlOTYwZWVhNi05OWY3LTRiZDMtYjg5Ni1jZDNiMmU5YzIzMTUifQ.0i0_Z5W7VKYqDZgA3_gCPWk1oRukH0xq7NXRppVX1Zk' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"One nation movement house none on.","courseId":"6943e0e2-c285-430b-954d-0e3750027222","maxScore":85,"minScore":21,"orderIndex":15,"description":"Relate yes maintain return from tend. Congress spend ahead east. Throw address man adult free race.\nCause movement unit life cause international. Republican trouble crime write sea our listen.","estimatedTime":"5 weeks"}'

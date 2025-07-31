@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMxVDE0OjI1OjQ0LjI2ODY3MSIsInVzZXJfaWQiOiI3YjQzNGU5Ni1jNDk4LTRmNDktYWJkYy01ZWZjM2MwMWQ3NDUifQ.4x-Q6jnJja0cvOOdv4noBpj0_94dhneedhoI55yR2fU' \
+  -H 'content-length: 316' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Always across contain interest.","maxScore":65,"minScore":16,"description":"Able career politics country. Management color mind contain. Glass drug attack site dream.","estimatedTime":"2 weeks","previewFileId":"a69d5ae7-1a40-4d09-8ef3-d8f1ba9b547f","createdByUserId":"7b434e96-c498-4f49-abdc-5efc3c01d745"}'

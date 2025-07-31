@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMxVDE0OjI1OjQ0Ljg1MjAzMCIsInVzZXJfaWQiOiJlOTYwZWVhNi05OWY3LTRiZDMtYjg5Ni1jZDNiMmU5YzIzMTUifQ.0i0_Z5W7VKYqDZgA3_gCPWk1oRukH0xq7NXRppVX1Zk' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Need surface event around ten organization.","maxScore":71,"minScore":18,"description":"Mouth six environment include although agency wish. Item simply possible five board anything. None successful mother TV.","estimatedTime":"7 weeks","previewFileId":"47aa6339-6b5b-4f81-a297-e6fb34976dee","createdByUserId":"e960eea6-99f7-4bd3-b896-cd3b2e9c2315"}'

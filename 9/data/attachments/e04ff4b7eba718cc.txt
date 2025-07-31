@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMxVDE0OjI1OjQ2LjExOTYwNSIsInVzZXJfaWQiOiIxMGQwNzAwOC04NWQ4LTQxODMtODVhNS0yYzRiOWVlNmUwOGUifQ.e9U7eGPcNXuasYJI26W4uZVn5n9tYvUl8Oo83xMsGNs' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Himself who almost mother.","maxScore":91,"minScore":4,"description":"Management available we age. Dog field plant kid day happen especially soldier. Near listen full fish get answer. Miss do goal.\nCouple sit room politics catch ten.","estimatedTime":"8 weeks","previewFileId":"a0b8413a-50f4-4217-9820-d3575f63df57","createdByUserId":"10d07008-85d8-4183-85a5-2c4b9ee6e08e"}'

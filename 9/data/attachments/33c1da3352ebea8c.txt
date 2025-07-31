@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMxVDE0OjI1OjQ0LjI2ODY3MSIsInVzZXJfaWQiOiI3YjQzNGU5Ni1jNDk4LTRmNDktYWJkYy01ZWZjM2MwMWQ3NDUifQ.4x-Q6jnJja0cvOOdv4noBpj0_94dhneedhoI55yR2fU' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Small national affect full challenge their adult.","courseId":"e066ac42-0675-4af8-b6b9-d826e2c3b906","maxScore":54,"minScore":9,"orderIndex":17,"description":"Way avoid whether fact simple than particular. Wind north time. Magazine with opportunity your financial research buy animal.","estimatedTime":"7 weeks"}'

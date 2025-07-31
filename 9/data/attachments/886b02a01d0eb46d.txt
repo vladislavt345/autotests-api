@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMxVDE0OjI1OjQzLjA5Mjg0MSIsInVzZXJfaWQiOiIzMDZjNDUwOC1lZDBmLTQ3NzAtYWQyZS1lYjdkYTkyYzVkNDcifQ.Slp8jNW2lX7SjpmpExD4KAjEm9YxGAZs8vCKf2MuZz0' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Eight travel partner night.","maxScore":51,"minScore":6,"description":"Physical us look forward sister different. Tree carry local various accept. Ok plan lot one.\nNature thus cultural product although scientist consumer. Begin series public certain program kid.","estimatedTime":"3 weeks","previewFileId":"83f2a09c-f684-41b4-9274-869214830ef1","createdByUserId":"306c4508-ed0f-4770-ad2e-eb7da92c5d47"}'

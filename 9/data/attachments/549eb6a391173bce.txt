@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/5ae4799b-2ee1-4e73-b0e2-f1e2d6b4239a
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/5ae4799b-2ee1-4e73-b0e2-f1e2d6b4239a
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:93 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:70 Check single exercise fields
+INFO     BASE_ASSERTIONS:base.py:37 Check that "id" equals to 5ae4799b-2ee1-4e73-b0e2-f1e2d6b4239a
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to One nation movement house none on.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "course_id" equals to 6943e0e2-c285-430b-954d-0e3750027222
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 85
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 21
+INFO     BASE_ASSERTIONS:base.py:37 Check that "order_index" equals to 15
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Relate yes maintain return from tend. Congress spend ahead east. Throw address man adult free race.
+Cause movement unit life cause international. Republican trouble crime write sea our listen.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema
