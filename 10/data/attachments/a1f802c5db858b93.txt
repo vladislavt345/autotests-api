@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMxVDE0OjI2OjAwLjg2NzQ0NCIsInVzZXJfaWQiOiI1NjExNzI4NS03NmFhLTQ2MmItODFkNy00YjljNmRlYjEzMjQifQ.w0UWu37FtnGwDOje2vDRlZBM47Eumtb0Cjn2ycw8JnE' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Four positive consumer first.","courseId":"feedb176-74e8-4232-9167-817375ed7474","maxScore":52,"minScore":23,"orderIndex":11,"description":"Tonight serious without else. Forget enough small reason could Republican performance. School laugh its.\nNews least none special. Level see top next. Their less paper health kind rate.","estimatedTime":"9 weeks"}'

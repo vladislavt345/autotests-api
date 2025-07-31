@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:49 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Range within skin from Mr us network.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 86
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 2
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to A place organization operation pass account. Inside in indicate green machine art main.
+Walk authority stop head life ball public. Fill there both nearly still poor general.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 1 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that "preview_file_id" equals to 3deb709c-b957-4228-9b94-49f93a2d01f0
+INFO     BASE_ASSERTIONS:base.py:37 Check that "created_by_user_id" equals to 5a75be8b-1336-4584-a52c-38c95258c97d
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

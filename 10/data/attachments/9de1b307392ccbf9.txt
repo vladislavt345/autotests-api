@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/ef43de6d-805e-4431-bef1-1ab157d4d11c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMxVDE0OjI1OjU5LjA2NTcwNCIsInVzZXJfaWQiOiJkMDNhMTBiZC02ODY5LTQ5MDItYjNmMC0wNmFjMzJjZTA3MTIifQ.DiczMhs1BDsydluq_yAJGAvn1KVXNRexTiLBbsZfpzg' \
+  -H 'content-length: 235' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Analysis house why leave include pattern security.","maxScore":92,"minScore":7,"description":"Plant include imagine garden mother. Firm long theory level class field. Whom garden full detail agree.","estimatedTime":"4 weeks"}'

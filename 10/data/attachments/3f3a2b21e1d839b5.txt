@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMxVDE0OjI2OjAyLjA0NDEwNyIsInVzZXJfaWQiOiIyYjU0YjczNC1jNjFlLTQ3ZjQtYjNlNC1iMjNiNGE3MWEwMjUifQ.4wEZCysOzYSHHO4x7IL0jX20KR80UGSwUxOVizknSOE' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Move site believe fear bag.","maxScore":60,"minScore":4,"description":"Detail black huge head news be attorney activity. Third name ahead government through on TV. Dinner can hold develop their look role. Prevent star sometimes state leg particular no.","estimatedTime":"8 weeks","previewFileId":"44a71582-61b1-431f-a3d7-2798fb0f5001","createdByUserId":"2b54b734-c61e-47f4-b3e4-b23b4a71a025"}'

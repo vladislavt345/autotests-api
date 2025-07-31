@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMxVDE0OjI1OjU5LjY5Nzk3NyIsInVzZXJfaWQiOiIyMDc2N2UyMi1hZjBlLTQ3OTQtOWM0Yi1jMDZmZGNhMDUzYTkifQ.EIG_c9Qn6JoJU3t8DbX12NVeSgrTV664R79gfx1yzo4' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Add author claim.","maxScore":73,"minScore":14,"description":"Environment thought together. Assume public company analysis political development.\nFill though when something side make. Yet hold population herself future.","estimatedTime":"8 weeks","previewFileId":"72d4fa93-734f-4039-b316-8a040707551d","createdByUserId":"20767e22-af0e-4794-9c4b-c06fdca053a9"}'

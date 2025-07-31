@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMxVDE0OjI2OjAwLjg2NzQ0NCIsInVzZXJfaWQiOiI1NjExNzI4NS03NmFhLTQ2MmItODFkNy00YjljNmRlYjEzMjQifQ.w0UWu37FtnGwDOje2vDRlZBM47Eumtb0Cjn2ycw8JnE' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Arrive happy if.","maxScore":65,"minScore":18,"description":"Risk possible great far similar one receive popular. Improve standard science operation. To can near never pull lot reason.","estimatedTime":"3 weeks","previewFileId":"49cab068-c88d-4105-a7a2-6807fcc83a5e","createdByUserId":"56117285-76aa-462b-81d7-4b9c6deb1324"}'

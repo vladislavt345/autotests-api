@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMxVDE0OjI2OjAzLjI5MjE3OCIsInVzZXJfaWQiOiI5MTU3MGI1Ni00ZjY2LTRlY2MtYTNjNi1lMWQ5MGM3OTUwMTcifQ.I3ACKq17tY0v5rOuJvdxhLkAd2M2-ebdbBZRDVKfq_M' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Have admit plan herself role send.","maxScore":52,"minScore":15,"description":"Whole then participant carry ten. Financial reduce themselves eye carry mention agree. Their film explain sit read win.","estimatedTime":"7 weeks","previewFileId":"e0e38a80-c17c-4bc8-bde4-25e721b85df9","createdByUserId":"91570b56-4f66-4ecc-a3c6-e1d90c795017"}'

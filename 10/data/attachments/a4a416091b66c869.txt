@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMxVDE0OjI1OjU5LjA2NTcwNCIsInVzZXJfaWQiOiJkMDNhMTBiZC02ODY5LTQ5MDItYjNmMC0wNmFjMzJjZTA3MTIifQ.DiczMhs1BDsydluq_yAJGAvn1KVXNRexTiLBbsZfpzg' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Eight hope lawyer religious.","maxScore":94,"minScore":8,"description":"Owner budget coach almost until away son. Too visit whose Democrat. Staff development at must. World instead black car seat explain activity.","estimatedTime":"2 weeks","previewFileId":"a5ae8bf3-0a4f-4adb-bc42-b0632fb6f096","createdByUserId":"d03a10bd-6869-4902-b3f0-06ac32ce0712"}'

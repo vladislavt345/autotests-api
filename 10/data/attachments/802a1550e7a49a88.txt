@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMxVDE0OjI2OjAwLjI4NDY1MiIsInVzZXJfaWQiOiI1YTc1YmU4Yi0xMzM2LTQ1ODQtYTUyYy0zOGM5NTI1OGM5N2QifQ.B_6xOXA_R25GbybeuznANRb-YYc7uNjibeiIESuqhMo' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Range within skin from Mr us network.","maxScore":86,"minScore":2,"description":"A place organization operation pass account. Inside in indicate green machine art main.\nWalk authority stop head life ball public. Fill there both nearly still poor general.","estimatedTime":"1 weeks","previewFileId":"3deb709c-b957-4228-9b94-49f93a2d01f0","createdByUserId":"5a75be8b-1336-4584-a52c-38c95258c97d"}'
