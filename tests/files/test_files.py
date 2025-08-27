@@ -124,11 +124,9 @@ class TestFiles:
     @allure.severity(Severity.NORMAL)
     def test_delete_file(self, files_client: FilesClient, function_file: FileFixture):
         """Тест удаления файла через API."""
-        # Удаляем файл
         delete_response = files_client.delete_file_api(function_file.response.file.id)
         assert_status_code(delete_response.status_code, HTTPStatus.OK)
         
-        # Пытаемся получить удалённый файл
         get_response = files_client.get_file_api(function_file.response.file.id)
         get_response_data = InternalErrorResponseSchema.model_validate_json(get_response.text)
         

@@ -165,7 +165,5 @@ def assert_file_not_found_response(actual: InternalErrorResponseSchema):
     """
     # Логируем факт начала проверки
     logger.info("Check file not found response")
-    # Ожидаемое сообщение об ошибке, если файл не найден
     expected = InternalErrorResponseSchema(details="File not found")
-    # Используем ранее созданную функцию для проверки внутренней ошибки
     assert_internal_error_response(actual, expected)

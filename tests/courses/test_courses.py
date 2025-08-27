@@ -2,7 +2,7 @@ from http import HTTPStatus
 
 import allure
 import pytest
-from allure_commons.types import Severity  # Импортируем enum Severity из Allure
+from allure_commons.types import Severity
 
 from clients.courses.courses_client import CoursesClient
 from clients.courses.courses_schema import (
@@ -16,9 +16,9 @@ from clients.courses.courses_schema import (
 from fixtures.courses import CourseFixture
 from fixtures.files import FileFixture
 from fixtures.users import UserFixture
-from tools.allure.epics import AllureEpic  # Импортируем enum AllureEpic
-from tools.allure.features import AllureFeature  # Импортируем enum AllureFeature
-from tools.allure.stories import AllureStory  # Импортируем enum AllureStory
+from tools.allure.epics import AllureEpic
+from tools.allure.features import AllureFeature
+from tools.allure.stories import AllureStory
 from tools.allure.tags import AllureTag
 from tools.assertions.base import assert_status_code
 from tools.assertions.courses import (

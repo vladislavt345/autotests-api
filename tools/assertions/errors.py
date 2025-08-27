@@ -3,8 +3,8 @@ import allure
 from clients.errors_schema import ValidationErrorSchema, ValidationErrorResponseSchema, InternalErrorResponseSchema
 from tools.assertions.base import assert_equal, assert_length
 
-from tools.logger import get_logger  # Импортируем функцию для создания логгера
-logger = get_logger("ERRORS_ASSERTIONS")  # Создаем логгер с именем "ERRORS_ASSERTIONS"
+from tools.logger import get_logger
+logger = get_logger("ERRORS_ASSERTIONS")
 
 @allure.step("Check validation error")
 def assert_validation_error(actual: ValidationErrorSchema, expected: ValidationErrorSchema):

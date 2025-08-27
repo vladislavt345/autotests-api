@@ -17,9 +17,9 @@ from clients.exercises.exercises_schema import (
 )
 from fixtures.courses import CourseFixture
 from fixtures.exercises import ExerciseFixture
-from tools.allure.epics import AllureEpic  # Импортируем enum AllureEpic
-from tools.allure.features import AllureFeature  # Импортируем enum AllureFeature
-from tools.allure.stories import AllureStory  # Импортируем enum AllureStory
+from tools.allure.epics import AllureEpic
+from tools.allure.features import AllureFeature
+from tools.allure.stories import AllureStory
 from tools.allure.tags import AllureTag
 from tools.assertions.base import assert_status_code
 from tools.assertions.exercises import (

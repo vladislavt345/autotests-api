@@ -2,7 +2,7 @@ import allure
 from httpx import Request, Response
 
 from tools.http.curl import make_curl_from_request
-from tools.logger import get_logger  # Импортируем функцию для создания логгера
+from tools.logger import get_logger
 
 # Инициализируем логгер один раз на весь модуль
 logger = get_logger("HTTP_CLIENT")
