@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI3VDIyOjA3OjA3LjY4MzgzMiIsInVzZXJfaWQiOiI3ZDcxYzUwMi01OTdlLTQwY2EtYWUxNC1iZjU4NWUwMDFjNWIifQ.OEDhlAQsiEDWZkhgEop46fXnOmYbmGyR5gpkAyBbFEE' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whose either himself.","maxScore":88,"minScore":16,"description":"Would fire than similar manage information challenge. Action hair mention idea star.\nArticle size first thousand those its none. Instead effort return maintain daughter stand build thus.","estimatedTime":"10 weeks","previewFileId":"3d9870d6-876b-41b3-b640-d841f6512831","createdByUserId":"7d71c502-597e-40ca-ae14-bf585e001c5b"}'

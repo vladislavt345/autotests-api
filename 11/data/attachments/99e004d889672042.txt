@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI3VDIyOjA3OjA4LjU3NTc0NSIsInVzZXJfaWQiOiIxOTE0NDg2ZC1jZDQ0LTQ1MzYtOTEzMy1jYWQxM2E3NzZlNjIifQ.chj0wbXYRaxBMDykZh7wou46xoKiIAB-CVIs_U5Mclc' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Share many garden support.","maxScore":65,"minScore":8,"description":"Ahead pattern heavy draw hundred middle. Ability remember election hour tree executive. Quickly nature move buy red here race.\nCheck thought stock law significant yet. Exactly seat have simple.","estimatedTime":"5 weeks","previewFileId":"4072a8f8-8d80-4e83-884c-3571dd0727fa","createdByUserId":"1914486d-cd44-4536-9133-cad13a776e62"}'

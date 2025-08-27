@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI3VDIyOjA3OjEwLjk0NTgwOCIsInVzZXJfaWQiOiJiM2I4Y2MzNS00Mzg1LTRhNzktYTJmZC05NmU2NTQ0NmM1MmEifQ.xIoqr2_y4i_Ej8qfB7Rb4WTpa8UwnzsjaE7n0lb5uT4' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bar not style mention early foot major.","maxScore":92,"minScore":12,"description":"Less mean current response. Soldier quality hot myself worry.\nRequire president anyone. Once door bill teach. Read mind weight raise data eight view.","estimatedTime":"1 weeks","previewFileId":"28716a18-ce25-40ec-af27-c60d957fb3ac","createdByUserId":"b3b8cc35-4385-4a79-a2fd-96e65446c52a"}'

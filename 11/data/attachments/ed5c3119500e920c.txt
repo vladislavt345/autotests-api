@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI3VDIyOjA3OjA5LjE1NzM5MyIsInVzZXJfaWQiOiI5NjA4YjBjMi1hODkxLTQ0ZjMtYWMzYi0zNzYzODM3NjI1MTYifQ._gejnckJFBe3EhIhEwHhh01dAW3cs0hjIFfMvcsOQ2w' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Level would animal onto get ball traditional.","maxScore":75,"minScore":2,"description":"Reduce painting drug hope agreement. Performance city order ability likely be. Window describe north in result attorney hand.","estimatedTime":"8 weeks","previewFileId":"86637157-5610-4596-aa6f-9fa1b0185e91","createdByUserId":"9608b0c2-a891-44f3-ac3b-376383762516"}'

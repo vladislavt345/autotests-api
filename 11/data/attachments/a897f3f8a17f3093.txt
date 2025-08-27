@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI3VDIyOjA3OjA5LjczOTE0NyIsInVzZXJfaWQiOiI0ZDAwMDBmMC0yMGUwLTQ4MGYtYjNjMC02MjYxYzkyMzMzNDMifQ.gB8Gdka22OquJBLauBpPK-99zKFM8q3zfeRAHB47dTI' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Human point college enjoy draw Mrs.","maxScore":82,"minScore":9,"description":"Family pretty figure conference apply natural possible. Really take bed important value.\nWill true yard away number low recent hold.","estimatedTime":"3 weeks","previewFileId":"1b1595a8-5aea-47e8-b3bf-382133491915","createdByUserId":"4d0000f0-20e0-480f-b3c0-6261c9233343"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI3VDIyOjA3OjEwLjMyMDQ0OSIsInVzZXJfaWQiOiI0OTlhMDRkNC0zMzk1LTQ0MmUtYmM5Yy0wMDJkODU5MTk2ZGIifQ.Ss4BoQDVQ9Jz-tDaHdDXRcwyVMDZVgyzt2eyLYXaMbE' \
+  -H 'content-length: 266' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ready partner risk theory serious now.","courseId":"991ffcb4-916b-4fcc-94f8-9fe9f86193a8","maxScore":80,"minScore":8,"orderIndex":88,"description":"Floor need head every here site control. Anyone event put kid oil value remain.","estimatedTime":"10 weeks"}'

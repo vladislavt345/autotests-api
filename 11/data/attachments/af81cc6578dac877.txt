@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI3VDIyOjA3OjEwLjMyMDQ0OSIsInVzZXJfaWQiOiI0OTlhMDRkNC0zMzk1LTQ0MmUtYmM5Yy0wMDJkODU5MTk2ZGIifQ.Ss4BoQDVQ9Jz-tDaHdDXRcwyVMDZVgyzt2eyLYXaMbE' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"If really account month artist big toward.","maxScore":55,"minScore":15,"description":"Voice owner continue. Former education thing sense item sister bit. Catch popular environmental include maintain friend last early.\nSpeak by politics a occur movie.","estimatedTime":"8 weeks","previewFileId":"931b50fa-9d9b-4177-9a8a-52491732bd1c","createdByUserId":"499a04d4-3395-442e-bc9c-002d859196db"}'

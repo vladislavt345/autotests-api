@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI3VDIyOjA3OjExLjUyNzA3NCIsInVzZXJfaWQiOiIzNDk3ZTE5ZC1hNzAzLTRlOGQtYmMwMC1hNWI1MGRjMjkzM2UifQ.Vi1TrTkRaqhx5dlz032fOalsMsiRK2en9PAUcnFgNr0' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Record most send rest serious listen citizen.","maxScore":83,"minScore":9,"description":"Especially wear sound girl way rise arrive. Catch college rather its decide win activity. Whatever doctor agency candidate sure cup green.","estimatedTime":"4 weeks","previewFileId":"120fedf6-8981-461e-8c43-1ee6f7ac4199","createdByUserId":"3497e19d-a703-4e8d-bc00-a5b50dc2933e"}'
